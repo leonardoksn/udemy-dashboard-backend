@@ -1,7 +1,4 @@
 import { Request, Response } from 'express'
-import { User } from '../../models/User'
-// import db from '../../../infra/db'
-import bcrypt from 'bcrypt';
 import { sign } from 'jsonwebtoken';
 
 
