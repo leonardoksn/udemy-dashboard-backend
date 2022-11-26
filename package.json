@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "ts-node-dev server.ts",
         "build": "yarn tsc",
-        "deploy": "node ./dist/server.js"
+        "deploy": "node ./dist/server.js",
+        "start": "node ./dist/server.js"
     },
     "devDependencies": {
         "@types/cors": "^2.8.12",
@@ -21,10 +22,8 @@
         "@types/node": "*",
         "@types/oracledb": "^5.2.3",
         "cors": "^2.8.5",
-        "date-fns": "^2.28.0",
         "dotenv": "^16.0.0",
         "express": "^4.17.3",
-        "express-async-errors": "^3.1.1",
         "jsonwebtoken": "^8.5.1",
         "ts-node": "^10.9.1"
     }
